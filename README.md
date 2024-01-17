@@ -1,5 +1,5 @@
 
-![Logo macroglia](https://github.com/SandraSSB/Macro_cell-morphology-analysis/assets/156697837/f1d2f3b0-d9fb-4c83-994c-a67df74538e6)
+  ![Logo macroglia](https://github.com/SandraSSB/Macro_cell-morphology-analysis/assets/156697837/cce70cd0-b63c-4389-8cbf-e280e7920b56)
 
 
 # MACROglia 🧠
