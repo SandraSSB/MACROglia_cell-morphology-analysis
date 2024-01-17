@@ -1,3 +1,7 @@
+
+![Logo macroglia](https://github.com/SandraSSB/Macro_cell-morphology-analysis/assets/156697837/f1d2f3b0-d9fb-4c83-994c-a67df74538e6)
+
+
 # MACROglia 🧠
 
 ✨Welcome to MACROglia!
