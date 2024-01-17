@@ -1,5 +1,4 @@
-# MACROglia ![image](https://github.com/SandraSSB/Macro_cell-morphology-analysis/assets/156697837/36e7b0b4-4758-45d9-8ae3-de9b183730be)
-
+# MACROglia 🧠
 
 Welcome to MACROglia!
 ________________________
