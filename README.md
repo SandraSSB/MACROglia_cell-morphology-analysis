@@ -6,7 +6,7 @@
 ✨Welcome to MACROglia!
 __________________
 
-This ImageJ macro was born to pre-process images before using FracLac plugin for morphology analysis.
+This ImageJ macro was born to pre-process images before using FracLac plugin for morphological analysis.
 
 You will be able to remove the background and extract the shape of each cell you select, leaving them ready for FracLac analysis.
 
