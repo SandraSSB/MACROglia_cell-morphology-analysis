@@ -1,7 +1,7 @@
 # MACROglia 🧠
 
-Welcome to MACROglia!
-________________________
+✨Welcome to MACROglia!
+__________________
 
 This macro was born to pre-process images before using FracLac plugin for morphology analysis.
 
