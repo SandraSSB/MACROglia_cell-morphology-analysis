@@ -14,4 +14,4 @@ There is no limit of cells! You can select as much as you want from one photo.
 
 Despite its name, this macro works with any cell type that you want to analyse (microglia, astrocytes, neurons, whatever).
 
-Have fun :)
+Have fun 😊
