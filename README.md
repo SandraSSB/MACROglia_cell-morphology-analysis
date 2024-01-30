@@ -3,7 +3,7 @@
 
 # MACROglia 🔬 (for ImageJ software)
 
-✨Welcome to MACROglia!
+## ✨Welcome to MACROglia!
 __________________
 
 This ImageJ macro was born to pre-process images before using FracLac plugin for morphological analysis.
@@ -14,12 +14,13 @@ There is no limit of cells! You can select as much as you want from one photo.
 
 Despite its name, this macro works with any cell type that you want to analyse (microglia, astrocytes, neurons, whatever).
 
-❓**What do I need to download?**
+## ❓**What do I need to download?**
 
 ☝️ ➡️ Go to '*Macro*' folder and download the '*MACROglia.ijm*' file
 
 ✌️ ➡️ Go to '*Docs*' folder and download the FracLac plugin from the link inside the '*FracLac plugin for ImageJ.md*' file
-      Copy and paste the '*Frac_Lac.jar*' file into the folder called '*plugins*' inside the directory where you installed ImageJ
+
+   Copy and paste the '*Frac_Lac.jar*' file into the folder called '*plugins*' inside the directory where you installed ImageJ
        
 👌 ➡️ Go to '*Docs*' folder, download '*MACROglia_User guide.pdf*' file and you are **ready to start**
 
