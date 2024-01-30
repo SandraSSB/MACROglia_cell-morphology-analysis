@@ -21,7 +21,7 @@ Despite its name, this macro works with any cell type that you want to analyse (
 
    - Copy and paste the '*Frac_Lac.jar*' file into the folder called '*plugins*' inside the directory where you installed ImageJ
        
-👌 ➡️ Go to '*Docs*' folder, download '*MACROglia_User guide.pdf*' file and you are **ready to start**
+👌 ➡️ Go to '*Docs*' folder, download '*MACROglia_User guide.pdf*' file and you are **READY TO START** 🚀
 
 
 <p align="center">
