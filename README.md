@@ -19,7 +19,7 @@ Despite its name, this macro works with any cell type that you want to analyse (
 ☝️ ➡️ Go to '*Macro*' folder and download the '*MACROglia.ijm*' file
 
 ✌️ ➡️ Go to '*Docs*' folder and download the FracLac plugin from the link inside the '*FracLac plugin for ImageJ.md*' file
-       Copy and paste the '*Frac_Lac.jar*' file into the folder called '*plugins*' inside the directory where you installed ImageJ
+      Copy and paste the '*Frac_Lac.jar*' file into the folder called '*plugins*' inside the directory where you installed ImageJ
        
 👌 ➡️ Go to '*Docs*' folder, download '*MACROglia_User guide.pdf*' file and you are **ready to start**
 
