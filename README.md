@@ -4,7 +4,6 @@
 # MACROglia 🔬 (for ImageJ software)
 
 ## ✨Welcome to MACROglia!
-__________________
 
 This ImageJ macro was born to pre-process images before using FracLac plugin for morphological analysis.
 
@@ -25,4 +24,4 @@ Despite its name, this macro works with any cell type that you want to analyse (
 👌 ➡️ Go to '*Docs*' folder, download '*MACROglia_User guide.pdf*' file and you are **ready to start**
 
 
-**HAVE FUN** 😊
+### **HAVE FUN** 😊
