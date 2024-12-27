@@ -23,7 +23,8 @@ Despite its name, this macro works with any cell type that you want to analyse (
        
 👌 ➡️ Go to ['*Docs*'](Docs) folder, download '*MACROglia_User guide.pdf*' file and you are **READY TO START** 🚀
 
-## ✍️Citation
+
+### ✍️Citation
 Sánchez-Sarasúa, S. (2024). MACROglia: cell morphology analysis (1.1.0). Zenodo. [https://doi.org/10.13140/RG.2.2.25708.13442/1](https://doi.org/10.13140/RG.2.2.25708.13442/1)
 
 
