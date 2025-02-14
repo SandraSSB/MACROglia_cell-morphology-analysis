@@ -16,7 +16,7 @@ Despite its name, this macro works with any cell type that you want to analyse (
 
 ## ❓**What do I need to download?**
 
-☝️ ➡️ Go to the [*latest release*](Macro) and download the preferred version of the macro:
+☝️ ➡️ Go to the [*latest release*](https://github.com/SandraSSB/MACROglia_cell-morphology-analysis/releases/tag/v1.2.0) and download the preferred version of the macro:
 
 <p align="center">
 🟢 'MACROglia_v1.2.0_BrightField_DAB.ijm' to process 3,3′-diaminobenzidine (DAB)-stained images 🟢
