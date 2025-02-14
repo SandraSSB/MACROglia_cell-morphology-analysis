@@ -1,6 +1,7 @@
 
   ![Logo macroglia 2](https://github.com/SandraSSB/MACROglia_cell-morphology-analysis/assets/156697837/d0ef2fa1-c0d6-46b4-9585-562d55e68afc)
 
+
 # MACROglia 🔬 (for ImageJ software)
 
 ## ✨Welcome to MACROglia!
@@ -33,7 +34,10 @@ HAVE FUN 😊
 
 ## ✍️ Reference
 When using MACROglia, please cite:
-Sánchez-Sarasúa, S. (2024). MACROglia: cell morphology analysis (1.1.0). Zenodo. [https://doi.org/10.13140/RG.2.2.25708.13442/1](https://doi.org/10.13140/RG.2.2.25708.13442/1)
+"Sánchez-Sarasúa, S. (2024). MACROglia: cell morphology analysis (1.1.0). Zenodo. [https://doi.org/10.13140/RG.2.2.25708.13442/1](https://doi.org/10.13140/RG.2.2.25708.13442/1)"
+
+To cite ‘FracLac’ plugin use:
+"Karperien, A., FracLac for ImageJ. [Introduction.htm](https://imagej.net/ij/plugins/fraclac/FLHelp/Introduction.htm). 1999-2013"
 
 ## 🔧 Changelog
 
