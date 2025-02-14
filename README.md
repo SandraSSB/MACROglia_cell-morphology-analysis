@@ -57,4 +57,4 @@ To cite ‘FracLac’ plugin use:
 - Added the reference to cite MACROglia
 
 ### [MACROglia v1.1.0](https://github.com/SandraSSB/MACROglia_cell-morphology-analysis/releases/tag/v1.1.0)
-This is the original version of the macro, published in GitHub in January 2024.
+This is the original version of the macro, published in GitHub in January 2024
