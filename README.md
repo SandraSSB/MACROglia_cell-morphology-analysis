@@ -45,4 +45,16 @@ To cite ‘FracLac’ plugin use:
 "Karperien, A., FracLac for ImageJ. [Introduction.htm](https://imagej.net/ij/plugins/fraclac/FLHelp/Introduction.htm). 1999-2013"
 
 ## 🔧 Changelog
+### [MACROglia v1.2.0](https://github.com/SandraSSB/MACROglia_cell-morphology-analysis/releases/tag/v1.2.0)
+- Modified to be suitable for two different immunohistochemical stainings:
+1 ) 'MACROglia_v1.2.0_BrightField_DAB.ijm' to process 3,3′-diaminobenzidine (DAB)-stained images
+2 ) 'MACROglia_v1.2.0_Fluorescent.ijm' to process fluorescent-stained images
+- Added multi-channel and Z-stacked images processing step
+- Added ROI selection step (possibility to draw the ROI in one channel and transfer it to another channel)
+- Added the check dialog window for background color to avoid over-erosion of the cells ramifications
+- Added a shortcut (tool icon button) to the ImageJ toolbar
+- Updated the user guide (MACROglia_User guide_v1.2.0)
+- Added the reference to cite MACROglia
 
+### [MACROglia v1.1.0](https://github.com/SandraSSB/MACROglia_cell-morphology-analysis/releases/tag/v1.1.0)
+This is the original version of the macro, published in GitHub in January 2024.
