@@ -18,8 +18,13 @@ Despite its name, this macro works with any cell type that you want to analyse (
 
 ☝️ ➡️ Go to the [*latest release*](Macro) and download the preferred version of the macro:
 
-        🟢 'MACROglia_v1.2.0_BrightField_DAB.ijm' to process 3,3′-diaminobenzidine (DAB)-stained images
-        🔵 'MACROglia_v1.2.0_Fluorescent.ijm' to process fluorescent-stained images
+<p align="center">
+🟢 'MACROglia_v1.2.0_BrightField_DAB.ijm' to process 3,3′-diaminobenzidine (DAB)-stained images
+</p>
+
+<p align="center">
+🔵 'MACROglia_v1.2.0_Fluorescent.ijm' to process fluorescent-stained images
+</p>
 
 ✌️ ➡️ Go to [*Docs*](Docs) folder and download the FracLac plugin from the link inside the '*FracLac plugin for ImageJ.md*' file
 
