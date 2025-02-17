@@ -39,7 +39,7 @@ HAVE FUN 😊
 
 ## ✍️ Reference
 When using MACROglia, please cite:
-"Sánchez-Sarasúa, S. (2024). MACROglia: cell morphology analysis (1.1.0). Zenodo. [https://doi.org/10.13140/RG.2.2.25708.13442/1](https://doi.org/10.13140/RG.2.2.25708.13442/1)"
+"Sánchez-Sarasúa, S. (2025). MACROglia: cell morphology analysis (1.2.0). Zenodo. [https://doi.org/10.5281/zenodo.14872354](https://doi.org/10.5281/zenodo.14872354)"
 
 To cite ‘FracLac’ plugin use:
 "Karperien, A., FracLac for ImageJ. [Introduction.htm](https://imagej.net/ij/plugins/fraclac/FLHelp/Introduction.htm). 1999-2013"
@@ -47,8 +47,10 @@ To cite ‘FracLac’ plugin use:
 ## 🔧 Changelog
 ### [MACROglia v1.2.0](https://github.com/SandraSSB/MACROglia_cell-morphology-analysis/releases/tag/v1.2.0)
 - Modified to be suitable for two different immunohistochemical stainings:
+
 1 ) 'MACROglia_v1.2.0_BrightField_DAB.ijm' to process 3,3′-diaminobenzidine (DAB)-stained images
 2 ) 'MACROglia_v1.2.0_Fluorescent.ijm' to process fluorescent-stained images
+
 - Added multi-channel and Z-stacked images processing step
 - Added ROI selection step (possibility to draw the ROI in one channel and transfer it to another channel)
 - Added the check dialog window for background color to avoid over-erosion of the cells ramifications
