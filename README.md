@@ -44,7 +44,7 @@ When using MACROglia, please cite:
 To cite ‘FracLac’ plugin use:
 "Karperien, A., FracLac for ImageJ. [Introduction.htm](https://imagej.net/ij/plugins/fraclac/FLHelp/Introduction.htm). 1999-2013"
 
-## 🔧 Changelog
+## 🔧 Release Notes
 ### [MACROglia v1.2.0](https://github.com/SandraSSB/MACROglia_cell-morphology-analysis/releases/tag/v1.2.0)
 - Modified to be suitable for two different immunohistochemical stainings:
 
