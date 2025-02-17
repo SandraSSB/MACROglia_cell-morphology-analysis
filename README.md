@@ -48,8 +48,9 @@ To cite ‘FracLac’ plugin use:
 ### [MACROglia v1.2.0](https://github.com/SandraSSB/MACROglia_cell-morphology-analysis/releases/tag/v1.2.0)
 - Modified to be suitable for two different immunohistochemical stainings:
 
-1 ) 'MACROglia_v1.2.0_BrightField_DAB.ijm' to process 3,3′-diaminobenzidine (DAB)-stained images
-2 ) 'MACROglia_v1.2.0_Fluorescent.ijm' to process fluorescent-stained images
+  1 ) 'MACROglia_v1.2.0_BrightField_DAB.ijm' to process 3,3′-diaminobenzidine (DAB)-stained images
+
+  2 ) 'MACROglia_v1.2.0_Fluorescent.ijm' to process fluorescent-stained images
 
 - Added multi-channel and Z-stacked images processing step
 - Added ROI selection step (possibility to draw the ROI in one channel and transfer it to another channel)
