@@ -1,0 +1,87 @@
+// MACROglia: cell morphology analysis
+
+// Copyright (c) 2024 Sandra Sánchez Sarasúa de la Bárcena
+// "MACROglia" macro authorship: Sandra Sánchez Sarasúa de la Bárcena
+
+// License: CC BY 4.0
+// Creative Commons Attribution 4.0 International Public License
+// The Creative Commons Attribution license allows re-distribution and
+// re-use of a licensed work on the condition that the creator is
+// appropriately credited.
+
+// Repository: https://github.com/SandraSSB/MACROglia_cell-morphology-analysis.git
+// Citation: "Sánchez-Sarasúa, S. (2025). MACROglia: cell morphology analysis (1.2.0). Zenodo. https://doi.org/10.5281/zenodo.14882323"
+
+// * Previously, install FracLac plugin in ImageJ or FIJI *
+
+// START
+macro "MACROglia_fluorescent Action Tool - N66C555CfffD00D01D02D03D04D05D07D08D09D0aD0bD0dD0eD10D11D12D13D14D15D17D18D19D1aD1eD20D21D22D23D24D27D28D29D2aD2dD2eD30D31D32D33D34D37D38D3aD3dD3eD40D41D42D43D44D45D4aD4dD4eD50D51D54D55D56D5dD5eD60D61D64D65D66D67D68D6cD6dD70D71D72D76D77D78D79D7cD80D81D82D83D87D88D89D90D91D97D98D99D9dDa0Da1Da7Db0Db1Db4Db5DbbDc0Dc1Dc2Dc4Dc5DcaDccDd0Dd1Dd2Dd3Dd4Dd5Dd8DdaDdcDe0De1DebCe22Cd85D16CeccC85aCea3D95CbbdCeeeC47cCf55CaaaCfddC888CeaaCcdeCfeeC1b5Cf33Ca8cD52CeddC96bDa6Ce99CbcdCfefDbeC68cCf77CbbbDc9Dd9CeeeCaabCfcaD4cCcedCfefDecC85aDa9Db6DbdCf22Cb7bDaaCfccC85bDc7Cea7D46CbbdCfeeD25D8eC68cCe95D1cCdbbCfddC989Db9CecaD3cCdddCfffD0cD35DaeC3a7Ce55CbacCedcD1bC97bDe7CebaD8bCccdCfffD75DbaDe2DeaC79cCf77CcccDcbCfeeD6eC9dbCeccCddeCfffC666Ce22Cb59DabCfccD9eC86aDacCec5D92CbbdCdefC57cCf66CbbbCedeDa5CfaaCddeCffeD5cDc3C3b6Ce44Ca9cD73CfddC96bCebaD3bD4bD8aCbceC68cCe96D26D59CcbdCfeeC9adCedaDb2CddeCfffCf22Ca8cDd7De8C96bD63Cec6D94CcbdD84CeefCe95D36CcadDcdC989De9CfbbCddeD62C5c8Ce85D5bCbacD96DceDe3CeddD06D69C98bDe5CecaD6bD7bCdcdDa8C79dCe99CbecCfeeD1dCabdCedcD5aCdeeCfffD86Dc8C666Cf21D9bCda7D47C85aD85Dd6Cfc3Da3CeeeCf66D8cCfaaD7dCddeCf33Ceb8D2bC68cCeedD39C8adCfcaD7aCdedCa8bDdeDe6C95bDb8Cea8D49CbcdC999CebbC3b6Cf55D8dCfecDa4C97bD74CdddDdbCf88CadcCeccCdeeCf22D7eCd98D9aCec5D93CeefCedeDbcCfbbC2b6Cf44Cb9cDe4C96bDc6C68cC9bdCecbD57CdedC96bDedCfd8Db3CdcdD53DeeCe96D58CcbcDb7C7c9Ce95D6aC97cCdceDddCf88C9bdCfdcD2cCdfeCeb9D48CfedDa2CdaaCedeDadC7c9Cf99D9cBf0C555CfffD06D07D0eD10D16D17D18D19D1cD1dD1eD25D26D27D28D29D2cD2dD2eD35D36D37D38D39D3dD3eD42D45D46D47D48D4eD50D51D52D53D55D56D57D5bD5eD60D61D62D63D65D66D67D6aD70D71D72D73D74D75D76D77D7aD80D81D82D83D84D85D86D87D88D89D8aD8bD8cD8dD90D91D92D93D94D95D96D97D98D99D9aD9bD9cDa0Da1Da2Da3Da4Da5Da6Da7Da8Da9DaaDabDacDadCe22Cd85CeccC85aD09Cea3CbbdCeeeD11C47cD9eCf55CaaaCfddC888CeaaCcdeD2aD6eCfeeC1b5D23D31Cf33Ca8cD00CeddC96bCe99CbcdD49CfefC68cD4cCf77CbbbCeeeCaabD04CfcaCcedD15CfefC85aD02D0cCf22Cb7bCfccC85bCea7CbbdD1aCfeeC68cD3bCe95CdbbCfddC989CecaCdddCfffC3a7D05Ce55CbacD03CedcC97bCebaCccdCfffD12D5dD6bC79cD59D68Cf77CcccCfeeC9dbD21CeccCddeCfffD20C666Ce22Cb59CfccC86aCec5CbbdCdefD79C57cD6cD7eD8eCf66CbbbCedeCfaaCddeD7bD7dCffeC3b6D44D54Ce44Ca9cCfddC96bD01CebaCbceD58C68cCe96CcbdD08D0dCfeeC9adD1bCedaCddeCfffD4bD4dD5aD78Cf22Ca8cC96bCec6CcbdCeefCe95CcadC989CfbbCddeC5c8D40Ce85CbacCeddC98bCecaCdcdC79dD2bCe99CbecD13CfeeCabdD7cCedcCdeeD64CfffC666Cf21Cda7C85aCfc3CeeeD30Cf66CfaaCddeCf33Ceb8C68cD6dCeedC8adDaeCfcaCdedD34Ca8bC95bCea8CbcdD69C999CebbC3b6D14Cf55CfecC97bCdddCf88CadcD41CeccCdeeCf22Cd98Cec5CeefD9dCedeCfbbC2b6D33Cf44Cb9cC96bC68cD4aD5cC9bdD3aCecbCdedD43C96bD0aCfd8CdcdCe96CcbcC7c9D32Ce95C97cD0bCdceCf88C9bdD3cCfdcCdfeD24Ceb9CfedCdaaCedeC7c9D22Cf99B0fC555D54CfffD00D01D04D05D06D07D08D09D0aD10D14D15D16D17D18D19D1aD20D21D24D25D26D27D28D29D2aD30D34D35D36D37D38D39D3aD4aD53D5aD62D63D65D68D69D6aD73D75D78D79D7aD82D83D85D86D87D88D89D8aD91D92D93D94D95D96D97D98D99D9aDa1Da2Da3Da4Da5Da6Da7Da8Da9DaaCe22Cd85CeccD02C85aCea3CbbdD32D41D42CeeeC47cCf55CaaaD76CfddC888D45D46D47D48CeaaD12CcdeCfeeD11C1b5Cf33Ca8cCeddD03C96bCe99CbcdD31CfefC68cCf77CbbbCeeeD84CaabCfcaCcedCfefC85aCf22Cb7bCfccC85bCea7CbbdCfeeC68cD70D80Ce95CdbbCfddD23C989CecaCdddD77CfffC3a7Ce55CbacCedcC97bCebaCccdD51CfffC79cCf77CcccD59D67CfeeC9dbCeccCddeD52CfffC666D56Ce22Cb59CfccD13C86aCec5CbbdDa0CdefC57cCf66CbbbD44D49D55D58CedeCfaaCddeD61CffeC3b6Ce44Ca9cCfddC96bCebaCbceC68cD71Ce96CcbdCfeeC9adCedaCddeD33CfffCf22Ca8cC96bCec6CcbdCeefD81Ce95CcadC989CfbbCddeC5c8Ce85CbacCeddC98bCecaCdcdC79dCe99CbecCfeeCabdCedcCdeeCfffC666D64D74Cf21Cda7C85aCfc3CeeeD40Cf66CfaaCddeD50Cf33Ceb8C68cCeedC8adCfcaCdedCa8bC95bCea8CbcdC999D57D66CebbC3b6Cf55CfecC97bCdddCf88CadcCeccCdeeD43D90Cf22Cd98Cec5CeefD60D72CedeCfbbD22C2b6Cf44Cb9cC96bC68cC9bdCecbCdedC96bCfd8CdcdCe96CcbcC7c9Ce95C97cCdceCf88C9bdCfdcCdfeCeb9CfedCdaaCedeC7c9Cf99Nf0C555CfffD00D04D05D06D07D08D09D0aD10D13D14D15D16D17D18D19D1aD20D23D24D25D26D27D28D29D2aD30D33D34D35D36D37D38D39D3aD40D42D43D44D45D46D47D48D49D4aD52D55D56D57D58D59D5aD65D66D67D68D69D6aD74D75D76D77D78D79D7aD83D84D85D86D87D88D89D8aD96D97D98D99D9aDa6Da7Da8Da9DaaDb0Db1Db5Db6Db7Db8Db9DbaDc0Dc1Dc5Dc6Dc7Dc8Dc9DcaDd0Dd1Dd4Dd5Dd6Dd7Dd8Dd9DdaDe0De1De4De5De6De7De8De9DeaCe22D90Cd85CeccD91D93C85aCea3CbbdCeeeC47cCf55Da2CaaaCfddDb2Db4Dc2C888CeaaCcdeCfeeC1b5Cf33D60Ca8cCeddD61C96bCe99Dc3CbcdCfefC68cCf77D03Da4CbbbCeeeCaabCfcaCcedCfefC85aCf22D63D72Cb7bCfccD22C85bCea7CbbdCfeeC68cCe95CdbbDb3CfddD62C989CecaCdddCfffD82D95C3a7Ce55D81CbacCedcC97bCebaCccdCfffC79cCf77D80CcccCfeeDa5C9dbCeccDe3CddeCfffC666Ce22D70Cb59CfccD50D73C86aCec5CbbdCdefC57cCf66D21Da1Da3CbbbCedeCfaaD12CddeCffeC3b6Ce44D51Ca9cCfddD01D92C96bCebaCbceC68cCe96CcbdCfeeD32D64Dc4C9adCedaCddeCfffCf22D02D71Ca8cC96bCec6CcbdCeefCe95CcadC989CfbbDe2CddeC5c8Ce85CbacCeddC98bCecaCdcdC79dCe99D54CbecCfeeCabdCedcCdeeCfffC666Cf21Cda7C85aCfc3CeeeCf66CfaaCddeCf33D41Ceb8C68cCeedC8adCfcaCdedCa8bC95bCea8CbcdC999CebbD53D94C3b6Cf55CfecC97bCdddCf88D11CadcCeccDd2CdeeCf22Cd98Cec5CeefCedeCfbbC2b6Cf44D31Cb9cC96bC68cC9bdCecbCdedC96bCfd8CdcdCe96CcbcC7c9Ce95C97cCdceCf88Da0C9bdCfdcCdfeCeb9CfedCdaaDd3CedeC7c9Cf99" {
+	newImage("Fake Image", "8-bit black", 100, 100, 1); // Create a fake image
+	run("Threshold..."); // Open the Threshold dialog
+	setAutoThreshold("Default dark"); // Set Default option in Threshold dialog
+	waitForUser("Select 'B&W' and untick the 'Dark Background' box (if it is ticked). Press OK");
+	run("Convert to Mask"); // Apply changes
+	selectWindow("Fake Image");
+	close(); // Close the fake image
+	close("Threshold"); // Close the Threshold dialog
+	getDimensions(width, height, channels, slices, frames);
+			// If it is a multi channel image
+			if (channels > 1) {
+			run("Z Project..."); // Select the Z stacks that you want to analyze
+			run("Split Channels");
+			}
+	Dialog.create("Specific area?");
+	Dialog.addMessage("Would you like to analyze a specific area?");
+	Dialog.addChoice("Choice:", newArray("Yes", "No"), "No"); // Default is "No"
+	Dialog.show();
+	choice = Dialog.getChoice();
+	if (choice == "Yes") {
+		waitForUser("Draw the area that you want to analyze and press OK");
+		run("ROI Manager...");
+		roiManager("Add"); // Add the drawn ROI to the ROI Manager
+		waitForUser("Select the window of the channel you want to analyze with MACROglia and press OK");
+		roiManager("Select", 0); // Select the ROI
+		roiManager("Add");
+		run("Duplicate...", "title=Area1");
+		run("Colors...", "foreground=black background=black selection=yellow");
+		setBackgroundColor(0); // Set the background color to black
+		setOption("ScaleConversions", true); // Ensure ROI respects calibration
+		run("Clear Outside"); // Clear everything outside the selected ROI
+		roiManager("Delete"); // Reset ROI Manager
+	} else {
+	}
+	waitForUser("Press OK to start MACROglia"); // Start of MACROglia
+	close("\\Others"); // Close everything but the photo that will be analyze
+	close("ROI Manager");
+	run("8-bit"); // Transform in 8-bit image
+	run("Grays"); // Convert to grayscale
+	run("Brightness/Contrast...");
+	waitForUser("Adjust brightness and contrast (Press APPLY and then OK)");
+	run("Unsharp Mask...", "radius=1 mask=0.60"); // High-contrast version of the image
+	run("Despeckle"); // Remove noise generated by "Unsharp Mask" tool
+	close("B&C");
+	run("Duplicate...", "title=Photo1"); // Duplicate the image
+	run("Threshold..."); // Open the Threshold dialog
+	waitForUser("Adjust threshold (Press APPLY and then OK)");
+	close("Threshold");
+	Dialog.create("Background color");
+	Dialog.addMessage("What is the background color?");
+	Dialog.addChoice("Choice:", newArray("White", "Black"), "White"); // Default is "White"
+	Dialog.show();
+	choice = Dialog.getChoice();
+	if (choice == "Black") {
+	run("Despeckle"); // Remove noise generated by "Threshold" tool
+	run("Close-");
+	run("Remove Outliers...", "radius=2 threshold=50 which=Dark"); // Replace dark outlier pixels by the median pixels in the surrounding area
+	} else {
+	run("Despeckle"); // Remove noise generated by "Threshold" tool
+	run("Close-");
+	run("Remove Outliers...", "radius=2 threshold=50 which=Bright"); // Replace bright outlier pixels by the median pixels in the surrounding area
+	}
+	run("ROI Manager...");
+	waitForUser("Select cells and save ROIs");
+	roiManager("Select", newArray());
+	roiManager("Combine");
+	run("Outline"); // Convert binary cells to outlines
+	run("FracLac"); // Open "FracLac" plugin
+	}
