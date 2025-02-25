@@ -39,7 +39,7 @@ HAVE FUN 😊
 
 ## ✍️ Reference
 When using MACROglia, please cite:
-"Sánchez-Sarasúa, S. (2025). MACROglia: cell morphology analysis (1.2.0). Zenodo. [https://doi.org/10.5281/zenodo.14882323](https://doi.org/10.5281/zenodo.14882323)"
+"Sánchez-Sarasúa, S. (2025). MACROglia: cell morphology analysis (1.2.0). Zenodo. [https://doi.org/10.5281/zenodo.14922374](https://doi.org/10.5281/zenodo.14922374)"
 
 To cite ‘FracLac’ plugin use:
 "Karperien, A., FracLac for ImageJ. [Introduction.htm](https://imagej.net/ij/plugins/fraclac/FLHelp/Introduction.htm). 1999-2013"
